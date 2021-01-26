@@ -1,8 +1,16 @@
+body{
+    background-color: tan;
+}
+
 .links {
     text-align: left
 }
 
 .search{
     text-align: center;
-    display: block
+   
+}
+
+#search-window{
+    border-radius: 25px;
 }
