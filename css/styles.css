@@ -1,5 +1,5 @@
 body{
-    background-color: tan;
+    background-color: none;
 }
 
 a{
@@ -10,9 +10,13 @@ a{
     text-align: left
 }
 
+#google-logo{
+    display: block;
+    margin: auto
+}
+
 .search{
     text-align: center;
-   
 }
 
 #search-window{
