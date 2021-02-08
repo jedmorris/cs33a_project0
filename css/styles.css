@@ -15,6 +15,11 @@ a{
     margin: auto
 }
 
+#googleImage-logo{
+    display: block;
+    margin: auto
+}
+
 .search{
     text-align: center;
 }
