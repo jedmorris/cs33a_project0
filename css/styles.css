@@ -24,6 +24,10 @@ a{
     text-align: center;
 }
 
+h2 {    
+    color: red;
+}
+
 #search-window{
     border-radius: 25px;
     padding: 20px; 
@@ -31,3 +35,11 @@ a{
     height: 1px;  
 }
 
+#advancedSearch{
+    text-align: left;
+}
+
+.advbutton {
+    color: white;
+    background-color: royalblue;
+}

@@ -4,10 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">
     </head>
     <body>
         <a href="index.html">Google Search</a>
         
-        <h1>This is Advanced Search</h1>
+        <!-- Search Window  -->
+        <div class="advanced-search">
+            <h2 id="advancedSearch">Advanced Search</h2>
+            <h4>Find pages with...</h4>
+            <form class="advancedSearch" action="https://google.com/search">
+                <div>
+                    <label>all these words: </label>
+                    <input type="text" name="allTheseWords" >
+                </div>
+                <br>
+                <div>
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="thisexactwordorphrase:">
+                </div>
+                <br>
+                <div>
+                    <label>any of these words: </label>
+                    <input type="text" name="anyofthesewords:" >
+                </div>
+                <br>
+                <div>
+                    <label>none of these words:</label>
+                    <input type="text" name="noneofthesewords:">
+                </div>
+                <br>
+                <div>
+                    <input class="advbutton" type="Submit" value="Advanced Search ">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
